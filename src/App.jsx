@@ -4,7 +4,7 @@ import { createClient } from '@supabase/supabase-js'
 import { Auth } from '@supabase/auth-ui-react'
 import { ThemeSupa } from '@supabase/auth-ui-shared'
 
-const supabase = createClient('https://zcihghxawlqwyvdcdubj.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpjaWhnaHhhd2xxd3l2ZGNkdWJqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTkzODM0MzEsImV4cCI6MjAzNDk1OTQzMX0.wtTVXYcDuAV1qf0rhOi9dj2TocqICXV-31wdMIPEiqQ')
+const supabase = createClient('https://pkdgjlkjxlxcqkczkfcv.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBrZGdqbGtqeGx4Y3FrY3prZmN2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTkzODY4MDMsImV4cCI6MjAzNDk2MjgwM30.qXqGxttK-QNwPGDNJBrKsqHBuKPB0ZJRw6d9NUu1TNo')
 
 export default function App() {
   const [session, setSession] = useState(null)
